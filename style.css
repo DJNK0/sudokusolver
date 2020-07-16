@@ -12,14 +12,13 @@ table {
   margin-top:-205px;  
   top:50%;
   left:50%;
+  text-align:center;
 }
-
-
 
 colgroup {
   border: 20px solid #008;
-  
 }
+
 #reset_btn{
   position:fixed;
   margin-left:-214.3px;  
@@ -50,6 +49,7 @@ colgroup {
   font-family: "Francois One";
   font-size: 25px;
   color: white;
+  text-align:center;
 }
 
 td {
