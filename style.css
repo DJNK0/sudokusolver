@@ -1,0 +1,73 @@
+html {
+  font-family: sans-serif;
+}
+
+table {
+  border: 20px solid #008;
+  border-collapse: collapse;
+  width:428.6px;
+  height:410px;
+  position:fixed;
+  margin-left:-214.3px; 
+  margin-top:-205px;  
+  top:50%;
+  left:50%;
+}
+
+
+
+colgroup {
+  border: 20px solid #008;
+  
+}
+#reset_btn{
+  position:fixed;
+  margin-left:-214.3px;  
+  margin-top:-280px;  
+  top:50%;
+  left:50%;
+}
+
+#next_sol_btn{
+  position:fixed;
+  margin-left:-214.3px;  
+  margin-top:275px;  
+  top:50%;
+  left:50%;
+}
+
+#solve_btn{
+  position:fixed;
+  margin-left:-214.3px;  
+  margin-top:220px;  
+  top:50%;
+  left:50%;
+}
+.btn{
+  background-color: blue;
+  width:437px;
+  height:60px;
+  font-family: "Francois One";
+  font-size: 25px;
+  color: white;
+}
+
+td {
+  border: 1px solid #008;
+  background-color: white;
+}
+
+td input {
+  width: 32px;
+  height: 32px;
+  color: black;
+  border: 0px solid;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  background-color: white;
+}
+
+.edge {
+  border-bottom: 20px solid #008;
+}
