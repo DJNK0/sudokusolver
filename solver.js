@@ -1,4 +1,5 @@
 
+
 function GetElemValue(id){
     let input = document.getElementById(id);
     if(input.value == ""){
@@ -13,6 +14,8 @@ function GetElemValue(id){
 function replace(assignedValue, elemId){
     document.getElementById(elemId).value = assignedValue;
 }
+
+
 
 function board(){
     //create board with element values
@@ -56,6 +59,17 @@ function impossible(){
 
 function resetCnt(){
     count = 1;
+}
+
+function enforceMinMax(el){
+    if(el.value != ""){
+        if(parseInt(el.value) < parseInt(el.min)){
+            el.value = "";
+        } 
+        if(parseInt(el.value) > parseInt(el.max)){
+            el.value = "";
+        }
+    }
 }
 
 resetCnt()
