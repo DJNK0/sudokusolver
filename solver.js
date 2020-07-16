@@ -15,8 +15,6 @@ function replace(assignedValue, elemId){
     document.getElementById(elemId).value = assignedValue;
 }
 
-
-
 function board(){
     //create board with element values
     board = [
